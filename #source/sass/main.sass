@@ -1,0 +1,450 @@
+$accent: #2E85FF
+body
+	font-family: 'Inter', sans-serif
+	color: #324B72
+ul, li
+	display: block
+	margin: 0
+	padding: 0
+.default-section
+	padding: 120px 0
+.title
+	font-family: 'Roboto', sans-serif
+	color: #112950
+	font-weight: 700
+.button-blue
+	border-radius: 30px
+	cursor: pointer
+	transition: 0.3s ease
+	padding: 18px 32px
+	border: 1px solid $accent
+	font-size: 15px
+	line-height: 24px
+	letter-spacing: 0.15px
+	color: #fff
+	background-color: $accent
+	&:hover
+		border: 1px solid #2174EA
+		background-color: transparent
+		color: #2174EA	
+		text-decoration: none
+	&:focus
+		outline: none
+.button-light
+	border-radius: 30px
+	cursor: pointer
+	transition: 0.3s ease
+	padding: 18px 32px
+	border: 1px solid #2E85FF
+	background-color: #fff
+	color: #2174EA
+	&:hover
+		border: 1px solid darken(#2174EA, 20%)
+		background-color: transparent
+		color: darken(#2174EA, 20%)	
+		text-decoration: none
+	&:focus
+		outline: none
+
+.card-title
+	font-size: 28px
+	line-height: 35px
+	letter-spacing: 0.456px
+	font-weight: 700
+.card-desc
+	font-size: 17px
+	line-height: 30px
+	letter-spacing: 0.15px
+	padding: 20px 0 40px 0
+#toTop
+	z-index: 999
+	width: 40px
+	height: 40px
+	border: none
+	font-size: 20px
+	border-radius: 3px
+	background: #112950
+	text-align: center
+	padding: 5px
+	position: fixed
+	bottom: 10px
+	right: 10px
+	cursor: pointer
+	display: none
+	color: #fff
+.risk
+	display: flex
+	justify-content: center
+	background-color: #112950
+	color: #fff
+	padding: 18px 0
+	&-arrow
+		margin-left: 8px
+.navbar
+	background: #F5F8FB
+	padding: 28px 0
+	.fa-bars
+		font-size: 25px
+	.brand
+		max-width: 100%
+	.nav-link
+		font-size: 15px
+		list-style-type: none
+		color: #324B72
+		margin-left: 35px
+		&:hover
+			text-decoration: none
+.main-screen
+	background: #F5F8FB
+	padding: 90px 0 24px
+	.main
+		&-title
+			margin: 125px 0 42px
+			font-size: 45px
+			line-height: 56px
+			letter-spacing: 0.796px
+		&-desc
+			font-size: 18px
+			line-height: 30px
+			letter-spacing: 0.15px
+		&-button
+			margin-top: 25px
+.help
+	background-color: #F5F8FB
+	&-title
+		margin-bottom: 70px
+		font-size: 37px
+		line-height: 44px
+		letter-spacing: 0.617px
+	&-card
+		&-title
+			margin: 27px 0 19px
+			font-size: 22px
+			line-height: 28px
+			letter-spacing: 0.308px
+		&-desc
+			font-size: 17px
+			line-height: 30px
+			letter-spacing: 0.15px
+			
+.use
+	&-title
+		font-size: 36px
+		line-height: 44px
+		letter-spacing: 0.617px
+	&-desc
+		margin: 30px 0 56px
+		max-width: 650px
+		font-size: 18px
+		line-height: 30px
+		letter-spacing: 0.15px
+	&-card
+		position: relative
+		display: flex
+		flex-direction: column
+		border: 1px solid #E0E6ED
+		box-sizing: border-box
+		border-radius: 16px
+		padding: 50px 0
+		min-height: 662px
+		background-color: #112950
+		margin-bottom: 30px
+		&-img
+			height: auto
+			max-width: 100%
+			padding: 0 80px
+			border-bottom: 1px solid #E0E6ED
+		&-info
+			padding: 45px 40px 0
+		&-btn-set
+			position: absolute
+			bottom: 60px
+			&-text
+				color: #fff
+				font-size: 16px
+				line-height: 24px
+				letter-spacing: 0.075px
+				padding-left: 10px
+				&:hover
+					text-decoration: none
+					color: #fff
+	&-card-fs
+		min-height: 374px
+		display: flex
+		align-items: center
+		border: 1px solid #E0E6ED
+		box-sizing: border-box
+		border-radius: 16px
+		padding-right: 40px
+		&-info
+			padding: 45px 40px 0
+			&-button
+				margin-bottom: 40px
+		&-img
+			max-width: 319px
+.trust
+	background-color: #F5F8FB
+	&-title
+		padding-bottom: 68px
+	&-card
+		display: flex
+		margin-bottom: 120px
+		&-info
+			padding: 0 55px
+			&-title
+				font-size: 23px
+				line-height: 28px
+				letter-spacing: 0.308px
+				padding-bottom: 25px
+			&-desc
+				font-size: 17px
+				line-height: 27px
+				letter-spacing: 0.15px
+	&-companies-title
+		font-size: 14px
+		line-height: 17px
+		letter-spacing: 0.15px
+		color: #7B8BA5
+		text-transform: uppercase
+		margin-bottom: 57px
+	&-companies-img
+		padding-bottom: 50px
+.gratitude
+	&-title
+		font-size: 37px
+		line-height: 44px
+		letter-spacing: 0.617px
+		padding-bottom: 30px
+	&-desc
+		font-size: 17px
+		line-height: 30px
+		letter-spacing: 0.15px
+		margin-bottom: 56px
+	.languages
+		&-choice
+			display: flex
+			justify-content: center
+			align-items: center
+			border: 1px solid #E0E6ED
+			box-sizing: border-box
+			border-radius: 16px
+			padding: 4px 20px
+			margin-top: 8px
+			font-size: 15px
+			line-height: 24px
+			letter-spacing: 0.075px
+			color: #324B72
+			&:hover
+				text-decoration: none
+			.fa-check
+				padding-right: 5px
+				color: #7B8BA5
+.contact
+	display: flex
+	text-align: center
+	background: #F5F8FB
+	&-title
+		font-size: 37px
+		line-height: 44px
+		letter-spacing: 0.617px
+	&-desc
+		font-size: 18px
+		line-height: 30px
+		letter-spacing: 0.15px
+		margin: 30px 0 40px
+	&-btn
+		background-color: transparent
+.footer
+	padding: 80px 0 40px
+	background: #F5F8FB
+	.container
+		border-top: 1px solid #E0E6ED
+		padding-top: 60px
+	&-title
+		padding-bottom: 20px
+		font-size: 14px
+		line-height: 21px
+		letter-spacing: 0.15px
+		text-transform: uppercase
+		color: #7B8BA5
+		font-weight: 700
+	&-menu
+		&-item
+			display: inline-block
+			padding: 8px 0
+			font-size: 15px
+			line-height: 24px
+			letter-spacing: 0.15px
+			color: #324B72
+			&:hover
+				color: #324B72
+				text-decoration: none
+	.icons
+		&-icon
+			padding: 0 12px
+			color: #92A0B6
+			font-size: 24px
+.copy
+	background: #F5F8FB
+	.container
+		border-top: 1px solid #E0E6ED
+		padding: 20px 0
+		.footer-developer
+			color: #324B72
+			&:hover
+				text-decoration: none
+			.fa-telegram
+				padding-right: 5px
+@media screen and (max-width: 768px)
+	.button-blue
+		padding: 16px 24px
+		font-size: 14px
+	.button-light
+		padding: 16px 24px
+	.card-title
+		font-size: 24px
+	.card-desc
+		font-size: 15px
+		padding: 20px 0 20px 0
+	.menu-bar
+		padding: 28px 0
+		.menu
+			&-item
+				margin: 25px
+	.main-screen
+		padding: 90px 0 24px
+		.main
+			&-title
+				margin: 90px 0 20px
+			&-button
+				margin-top: 15px
+	.use
+		&-card
+			padding: 10px 0
+			margin-bottom: 30px
+			&-img
+				padding: 0 30px
+			&-info
+				padding: 20px 20px 0
+			&-btn-set
+				&-text
+					font-size: 15px
+		&-card-fs
+			padding-right: 20px
+			&-info
+				padding: 20px 20px 0
+	.trust
+		&-title
+			padding-bottom: 45px
+		&-card
+			margin-bottom: 50px
+		&-companies-title
+			margin: 50px 0 70px
+	.footer
+		.icons
+			margin-top: 30px
+			&-icon
+				padding: 0 12px
+				color: #92A0B6
+				font-size: 28px
+@media screen and (max-width: 767px)
+	.default-section
+		padding: 80px 0
+	.button-blue
+		padding: 16px 24px
+		font-size: 14px
+	.button-light
+		padding: 16px 24px
+	.card-title
+		font-size: 20px
+		font-weight: 700
+	.card-desc
+		font-size: 15px
+		padding: 20px 0 20px 0
+	.risk
+		padding: 8px 0
+		font-size: 10px
+	.main-screen
+		padding: 90px 0 24px
+		text-align: center
+		.main
+			&-title
+				font-size: 34px
+				margin: 0px 0 20px
+				line-height: 45px
+			&-button
+				margin-top: 15px
+		&-img
+			display: none
+	.help
+		text-align: center
+		&-title
+			margin-bottom: 30px
+			font-size: 28px
+		&-card
+			&-title
+				margin: 27px 0 19px
+				font-size: 22px
+			&-desc
+				font-size: 15px
+				margin-bottom: 50px
+	.use
+		&-title
+			font-size: 28px
+		&-desc
+			margin: 20px 0 40px
+			font-size: 15px
+			font-weight: 400
+		&-card
+			&-img
+				padding: 0 20px
+			&-info
+				padding: 20px 20px 0
+			&-btn-set
+				&-text
+					font-size: 15px
+		&-card-fs
+			padding-right: 20px
+			&-info
+				padding: 20px 20px 0
+			&-img
+				display: none
+	.trust
+		&-title
+			font-size: 24px
+		&-card
+			margin-bottom: 50px
+			&-info
+				padding: 0 20px
+				&-title
+					font-size: 18px
+					padding-bottom: 14px
+				&-desc
+					font-size: 15px
+		&-companies-title
+			font-size: 12px
+			margin: 20px 0 50px	
+		&-companies-img
+			padding-bottom: 50px
+	.gratitude
+		&-title
+			font-size: 28px
+			padding-bottom: 15px
+		&-desc
+			font-size: 15px
+			margin-bottom: 40px
+	.contact
+		&-title
+			font-size: 28px
+		&-desc
+			font-size: 15px
+			margin: 20px 0 40px
+	.footer
+		.icons
+			margin-top: 30px
+			&-icon
+				padding: 0 12px
+				color: #92A0B6
+				font-size: 28px
+	.copy
+		display: none

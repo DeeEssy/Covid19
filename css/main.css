@@ -1,0 +1,591 @@
+body {
+  font-family: "Inter", sans-serif;
+  color: #324B72;
+}
+
+ul, li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.default-section {
+  padding: 120px 0;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  color: #112950;
+  font-weight: 700;
+}
+
+.button-blue {
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  padding: 18px 32px;
+  border: 1px solid #2E85FF;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #fff;
+  background-color: #2E85FF;
+}
+.button-blue:hover {
+  border: 1px solid #2174EA;
+  background-color: transparent;
+  color: #2174EA;
+  text-decoration: none;
+}
+.button-blue:focus {
+  outline: none;
+}
+
+.button-light {
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  padding: 18px 32px;
+  border: 1px solid #2E85FF;
+  background-color: #fff;
+  color: #2174EA;
+}
+.button-light:hover {
+  border: 1px solid #0e4797;
+  background-color: transparent;
+  color: #0e4797;
+  text-decoration: none;
+}
+.button-light:focus {
+  outline: none;
+}
+
+.card-title {
+  font-size: 28px;
+  line-height: 35px;
+  letter-spacing: 0.456px;
+  font-weight: 700;
+}
+
+.card-desc {
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  padding: 20px 0 40px 0;
+}
+
+#toTop {
+  z-index: 999;
+  width: 40px;
+  height: 40px;
+  border: none;
+  font-size: 20px;
+  border-radius: 3px;
+  background: #112950;
+  text-align: center;
+  padding: 5px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  display: none;
+  color: #fff;
+}
+
+.risk {
+  display: flex;
+  justify-content: center;
+  background-color: #112950;
+  color: #fff;
+  padding: 18px 0;
+}
+.risk-arrow {
+  margin-left: 8px;
+}
+
+.navbar {
+  background: #F5F8FB;
+  padding: 28px 0;
+}
+.navbar .fa-bars {
+  font-size: 25px;
+}
+.navbar .brand {
+  max-width: 100%;
+}
+.navbar .nav-link {
+  font-size: 15px;
+  list-style-type: none;
+  color: #324B72;
+  margin-left: 35px;
+}
+.navbar .nav-link:hover {
+  text-decoration: none;
+}
+
+.main-screen {
+  background: #F5F8FB;
+  padding: 90px 0 24px;
+}
+.main-screen .main-title {
+  margin: 125px 0 42px;
+  font-size: 45px;
+  line-height: 56px;
+  letter-spacing: 0.796px;
+}
+.main-screen .main-desc {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+}
+.main-screen .main-button {
+  margin-top: 25px;
+}
+
+.help {
+  background-color: #F5F8FB;
+}
+.help-title {
+  margin-bottom: 70px;
+  font-size: 37px;
+  line-height: 44px;
+  letter-spacing: 0.617px;
+}
+.help-card-title {
+  margin: 27px 0 19px;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.308px;
+}
+.help-card-desc {
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+}
+
+.use-title {
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.617px;
+}
+.use-desc {
+  margin: 30px 0 56px;
+  max-width: 650px;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+}
+.use-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #E0E6ED;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 50px 0;
+  min-height: 662px;
+  background-color: #112950;
+  margin-bottom: 30px;
+}
+.use-card-img {
+  height: auto;
+  max-width: 100%;
+  padding: 0 80px;
+  border-bottom: 1px solid #E0E6ED;
+}
+.use-card-info {
+  padding: 45px 40px 0;
+}
+.use-card-btn-set {
+  position: absolute;
+  bottom: 60px;
+}
+.use-card-btn-set-text {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.075px;
+  padding-left: 10px;
+}
+.use-card-btn-set-text:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.use-card-fs {
+  min-height: 374px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #E0E6ED;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding-right: 40px;
+}
+.use-card-fs-info {
+  padding: 45px 40px 0;
+}
+.use-card-fs-info-button {
+  margin-bottom: 40px;
+}
+.use-card-fs-img {
+  max-width: 319px;
+}
+
+.trust {
+  background-color: #F5F8FB;
+}
+.trust-title {
+  padding-bottom: 68px;
+}
+.trust-card {
+  display: flex;
+  margin-bottom: 120px;
+}
+.trust-card-info {
+  padding: 0 55px;
+}
+.trust-card-info-title {
+  font-size: 23px;
+  line-height: 28px;
+  letter-spacing: 0.308px;
+  padding-bottom: 25px;
+}
+.trust-card-info-desc {
+  font-size: 17px;
+  line-height: 27px;
+  letter-spacing: 0.15px;
+}
+.trust-companies-title {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.15px;
+  color: #7B8BA5;
+  text-transform: uppercase;
+  margin-bottom: 57px;
+}
+.trust-companies-img {
+  padding-bottom: 50px;
+}
+
+.gratitude-title {
+  font-size: 37px;
+  line-height: 44px;
+  letter-spacing: 0.617px;
+  padding-bottom: 30px;
+}
+.gratitude-desc {
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  margin-bottom: 56px;
+}
+.gratitude .languages-choice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #E0E6ED;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 4px 20px;
+  margin-top: 8px;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.075px;
+  color: #324B72;
+}
+.gratitude .languages-choise:hover {
+  text-decoration: none;
+}
+.gratitude .languages-choise .fa-check {
+  padding-right: 5px;
+  color: #7B8BA5;
+}
+
+.contact {
+  display: flex;
+  text-align: center;
+  background: #F5F8FB;
+}
+.contact-title {
+  font-size: 37px;
+  line-height: 44px;
+  letter-spacing: 0.617px;
+}
+.contact-desc {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  margin: 30px 0 40px;
+}
+.contact-btn {
+  background-color: transparent;
+}
+
+.footer {
+  padding: 80px 0 40px;
+  background: #F5F8FB;
+}
+.footer .container {
+  border-top: 1px solid #E0E6ED;
+  padding-top: 60px;
+}
+.footer-title {
+  padding-bottom: 20px;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+  color: #7B8BA5;
+  font-weight: 700;
+}
+.footer-menu-item {
+  display: inline-block;
+  padding: 8px 0;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #324B72;
+}
+.footer-menu-item:hover {
+  color: #324B72;
+  text-decoration: none;
+}
+.footer .icons-icon {
+  padding: 0 12px;
+  color: #92A0B6;
+  font-size: 24px;
+}
+
+.copy {
+  background: #F5F8FB;
+}
+.copy .container {
+  border-top: 1px solid #E0E6ED;
+  padding: 20px 0;
+}
+.copy .container .footer-developer {
+  color: #324B72;
+}
+.copy .container .footer-developer:hover {
+  text-decoration: none;
+}
+.copy .container .footer-developer .fa-telegram {
+  padding-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .button-blue {
+    padding: 16px 24px;
+    font-size: 14px;
+  }
+
+  .button-light {
+    padding: 16px 24px;
+  }
+
+  .card-title {
+    font-size: 24px;
+  }
+
+  .card-desc {
+    font-size: 15px;
+    padding: 20px 0 20px 0;
+  }
+
+  .menu-bar {
+    padding: 28px 0;
+  }
+  .menu-bar .menu-item {
+    margin: 25px;
+  }
+
+  .main-screen {
+    padding: 90px 0 24px;
+  }
+  .main-screen .main-title {
+    margin: 90px 0 20px;
+  }
+  .main-screen .main-button {
+    margin-top: 15px;
+  }
+
+  .use-card {
+    padding: 10px 0;
+    margin-bottom: 30px;
+  }
+  .use-card-img {
+    padding: 0 30px;
+  }
+  .use-card-info {
+    padding: 20px 20px 0;
+  }
+  .use-card-btn-set-text {
+    font-size: 15px;
+  }
+  .use-card-fs {
+    padding-right: 20px;
+  }
+  .use-card-fs-info {
+    padding: 20px 20px 0;
+  }
+
+  .trust-title {
+    padding-bottom: 45px;
+  }
+  .trust-card {
+    margin-bottom: 50px;
+  }
+  .trust-companies-title {
+    margin: 50px 0 70px;
+  }
+
+  .footer .icons {
+    margin-top: 30px;
+  }
+  .footer .icons-icon {
+    padding: 0 12px;
+    color: #92A0B6;
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .default-section {
+    padding: 80px 0;
+  }
+
+  .button-blue {
+    padding: 16px 24px;
+    font-size: 14px;
+  }
+
+  .button-light {
+    padding: 16px 24px;
+  }
+
+  .card-title {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .card-desc {
+    font-size: 15px;
+    padding: 20px 0 20px 0;
+  }
+
+  .risk {
+    padding: 8px 0;
+    font-size: 10px;
+  }
+
+  .main-screen {
+    padding: 90px 0 24px;
+    text-align: center;
+  }
+  .main-screen .main-title {
+    font-size: 34px;
+    margin: 0px 0 20px;
+    line-height: 45px;
+  }
+  .main-screen .main-button {
+    margin-top: 15px;
+  }
+  .main-screen-img {
+    display: none;
+  }
+
+  .help {
+    text-align: center;
+  }
+  .help-title {
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  .help-card-title {
+    margin: 27px 0 19px;
+    font-size: 22px;
+  }
+  .help-card-desc {
+    font-size: 15px;
+    margin-bottom: 50px;
+  }
+
+  .use-title {
+    font-size: 28px;
+  }
+  .use-desc {
+    margin: 20px 0 40px;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .use-card-img {
+    padding: 0 20px;
+  }
+  .use-card-info {
+    padding: 20px 20px 0;
+  }
+  .use-card-btn-set-text {
+    font-size: 15px;
+  }
+  .use-card-fs {
+    padding-right: 20px;
+  }
+  .use-card-fs-info {
+    padding: 20px 20px 0;
+  }
+  .use-card-fs-img {
+    display: none;
+  }
+
+  .trust-title {
+    font-size: 24px;
+  }
+  .trust-card {
+    margin-bottom: 50px;
+  }
+  .trust-card-info {
+    padding: 0 20px;
+  }
+  .trust-card-info-title {
+    font-size: 18px;
+    padding-bottom: 14px;
+  }
+  .trust-card-info-desc {
+    font-size: 15px;
+  }
+  .trust-companies-title {
+    font-size: 12px;
+    margin: 20px 0 50px;
+  }
+  .trust-companies-img {
+    padding-bottom: 50px;
+  }
+
+  .gratitude-title {
+    font-size: 28px;
+    padding-bottom: 15px;
+  }
+  .gratitude-desc {
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+
+  .contact-title {
+    font-size: 28px;
+  }
+  .contact-desc {
+    font-size: 15px;
+    margin: 20px 0 40px;
+  }
+
+  .footer .icons {
+    margin-top: 30px;
+  }
+  .footer .icons-icon {
+    padding: 0 12px;
+    color: #92A0B6;
+    font-size: 28px;
+  }
+
+  .copy {
+    display: none;
+  }
+}
